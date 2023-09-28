@@ -1,3 +1,6 @@
-pool: MyAgentPool
+trigger:
+  - main
+
+pool: Default
 steps:
 - bash: echo hello world
